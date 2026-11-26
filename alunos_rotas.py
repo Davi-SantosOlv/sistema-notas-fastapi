@@ -1,10 +1,11 @@
 from fastapi import APIRouter
+import json_dao as dao
 
 alunos_router = APIRouter(prefix="/alunos", tags=["alunos"])
 
 @alunos_router.get("/")
 async def buscar_alunos():
-  return {"mensagem": "Essa rota retorna todos os alunos"}
+  return dao.get_alunos()
 
 
 @alunos_router.post("/")

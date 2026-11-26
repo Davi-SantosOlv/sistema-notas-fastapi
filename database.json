@@ -1,0 +1,17 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Roberto",
+      "classe": "1ºB"
+    }
+  ],
+  "provas": [
+    {
+      "id_aluno": 1,
+      "disciplina": "Biologia",
+      "valor": 12.0,
+      "nota": 9.5
+    }
+  ]
+}
